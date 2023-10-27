@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar_cover{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-top: 40px;
+    justify-content:space-between;
+    padding-right: 60px;
+    padding-left: 60px;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+}
+.section_cover{
+    display: flex;
+    gap: 90px;
+    position: relative;
+    bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.navs{
+    text-decoration: none;
+    font-size: 16.5px;
+    color: rgb(126, 143, 163);
+    transition: 0.3s;
+    padding: 5px;
+    
+}
+.navs:hover{
+    color: rgb(66, 140, 210);
+    border-bottom: 3px solid rgb(66, 140, 210);
+    transition: 0.05s;
+}
+.enter{
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(66, 140, 210);
+    color: rgb(66, 140, 210);
+    font-size: 21px;
+    background: white;
+    border-radius: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.enter:hover{
+    background-color:  rgb(66, 140, 210);
+    color: white;
+    box-shadow: 1px 1px 7px 1px rgba(66, 140, 210, 0.869);
+}
+.education_search{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border: 1px solid rgb(126, 143, 163);
+    border-radius: 8px;
+    outline: none;
+    padding: 15px;
+    font-size: 14px;
+    bottom: 10px;
+}
